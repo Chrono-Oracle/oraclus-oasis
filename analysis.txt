@@ -1,0 +1,9 @@
+PROJECT ANALYSIS
+
+Key Terms: Primary Key (PK), Foreign Key (FK)
+
+
+ENTITIES AND ATTRIBUTES
+1) USER: id(PK), name, email, password, role(reader / admin / author), created_at
+2) ARTICLE: id(PK), author_id(FK), title, slug, sub_content, content, status(published / draft), created_at, updated_at
+3) COMMENT: id(PK), article_id(FK), reader_id(FK), content, created_at
